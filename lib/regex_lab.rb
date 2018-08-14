@@ -26,7 +26,7 @@ end
 
 def valid_phone_number?(phone)
   numbers = phone.grep(/[0-9]/)
-  if numbers.length == 9 
+  if numbers.length == 10
     return true
   else 
     return false
